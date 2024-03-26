@@ -1,0 +1,330 @@
+def soma ( a,b ):
+    return a + b 
+
+def quadrado (a):
+    return a**2
+
+def hipotenusa (cateto1,cateto2):
+    return soma (quadrado(cateto1),
+                 quadrado(cateto2))**(1/2)
+                 
+   
+def simples(cor):
+    if cor == 'azul':
+        return 'berimbal'
+    
+numeros = {1,2,3,4,5}
+contador = 0
+while contador < 10: 
+    print ( contador) 
+    contador +=1
+    
+for i in range ( 10):
+    print(i)
+    
+for item in [1,45,78,´a´ ,[3,5]]:
+    print (item)
+    
+
+for letra in ´ minha string´ : 
+    print (letra)
+
+
+
+
+
+
+
+    ----------------------------------------------------------
+
+    Python 3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.15.0 -- An enhanced Interactive Python.
+
+
+
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+
+soma ( 4,5)
+Out[2]: 9
+
+soma ( 8,6)
+Out[3]: 14
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:14
+    def quadrado (a):
+                     ^
+IndentationError: expected an indented block after function definition on line 14
+
+
+quadrado (4)
+Traceback (most recent call last):
+
+  Cell In[5], line 1
+    quadrado (4)
+
+NameError: name 'quadrado' is not defined
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+
+quadrado (4)
+Out[7]: 16
+
+soma (4,5)
+Out[8]: 9
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+simples('rosa')
+Traceback (most recent call last):
+
+  Cell In[13], line 1
+    simples('rosa')
+
+NameError: name 'simples' is not defined
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:18
+    return soma (quadrado, (cateto1)
+                            ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:21
+    def hipotenusa(cat1, cat2)
+                              ^
+SyntaxError: expected ':'
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+
+simples('azul')
+Out[35]: 'berimbal'
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+
+numeros
+Out[37]: {1, 2, 3, 4, 5}
+
+numeros {0} = ´berimbal no necroterio´´
+  Cell In[38], line 1
+    numeros {0} = ´berimbal no necroterio´´
+                  ^
+SyntaxError: invalid character '´' (U+00B4)
+
+
+
+
+numeros {0} = ´berimbal no necroterio´
+  Cell In[39], line 1
+    numeros {0} = ´berimbal no necroterio´
+                  ^
+SyntaxError: invalid character '´' (U+00B4)
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:35
+    for item in {1,45,78,´a´ ,{3,5}}:
+                         ^
+SyntaxError: invalid character '´' (U+00B4)
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:35
+    for item in {1,45,78,´a´,{3,5}}:
+                         ^
+SyntaxError: invalid character '´' (U+00B4)
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:35
+    for item in [1,45,78,´a´ ,[3, 5]]:
+                         ^
+SyntaxError: invalid character '´' (U+00B4)
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:35
+    for item in [1,45,78,´a´ ,[3, 5]]:
+                         ^
+SyntaxError: invalid character '´' (U+00B4)
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:35
+    for item in [1,45,78, ´a´ ,[3, 5]]:
+                          ^
+SyntaxError: invalid character '´' (U+00B4)
+
+
+runfile('C:/Users/202307164071/.spyder-py3/temp.py', wdir='C:/Users/202307164071/.spyder-py3')
+  File <unknown>:35
+    for item in [1,45,78,´a´ ,[3,5]]:
+                         ^
+SyntaxError: invalid character '´' (U+00B4)
